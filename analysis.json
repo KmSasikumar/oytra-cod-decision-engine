@@ -1,0 +1,329 @@
+{
+  "rows_total": 2018,
+  "rows_resolved": 2017,
+  "rows_unresolved": [
+    "KT100021"
+  ],
+  "overall": {
+    "n": 2017,
+    "rto": 573,
+    "rate": 0.2840852751611304
+  },
+  "payment_mix": {
+    "COD": 2018
+  },
+  "status_raw_values": {
+    "DELIVERED": 1443,
+    "RTO": 570,
+    "delivered": 1,
+    "RTO ": 1,
+    "IN_TRANSIT": 1,
+    "Rto": 2
+  },
+  "months": {
+    "2026-04": 306,
+    "2026-05": 344,
+    "2026-06": 330,
+    "2026-07": 342,
+    "2026-08": 362,
+    "2026-09": 334
+  },
+  "first_timer_share": {
+    "n": 1517,
+    "of": 2017,
+    "rate": 0.3032300593276203
+  },
+  "clean_repeat_rate": {
+    "n": 355,
+    "rto": 49,
+    "rate": 0.13802816901408452
+  },
+  "prior_rto_2_rate": {
+    "n": 34,
+    "rto": 26,
+    "rate": 0.7647058823529411
+  },
+  "prior_rto_1_rate": {
+    "n": 111,
+    "rto": 38,
+    "rate": 0.34234234234234234
+  },
+  "short_address": {
+    "n": 187,
+    "rto": 116,
+    "rate": 0.6203208556149733
+  },
+  "no_digit_address": {
+    "n": 586,
+    "rto": 237,
+    "rate": 0.4044368600682594
+  },
+  "fake_name": {
+    "n": 24,
+    "rto": 15,
+    "rate": 0.625
+  },
+  "hinglish_address": {
+    "n": 289,
+    "rto": 89,
+    "rate": 0.3079584775086505
+  },
+  "meta_first_timer": {
+    "n": 572,
+    "rto": 196,
+    "rate": 0.34265734265734266
+  },
+  "meta_overall": {
+    "n": 779,
+    "rto": 244,
+    "rate": 0.31322207958921694
+  },
+  "direct_overall": {
+    "n": 256,
+    "rto": 58,
+    "rate": 0.2265625
+  },
+  "pincodes": {
+    "distinct": 1067,
+    "max_orders_in_one": 12,
+    "with_20_or_more": 0,
+    "empty_pincode_rows": 12
+  },
+  "state_rates": {
+    "Assam": {
+      "n": 63,
+      "rto": 22,
+      "rate": 0.3492063492063492
+    },
+    "Bihar": {
+      "n": 146,
+      "rto": 78,
+      "rate": 0.5342465753424658
+    },
+    "Delhi": {
+      "n": 247,
+      "rto": 53,
+      "rate": 0.2145748987854251
+    },
+    "Karnataka": {
+      "n": 214,
+      "rto": 55,
+      "rate": 0.2570093457943925
+    },
+    "Madhya Pradesh": {
+      "n": 130,
+      "rto": 50,
+      "rate": 0.38461538461538464
+    },
+    "Maharashtra": {
+      "n": 390,
+      "rto": 70,
+      "rate": 0.1794871794871795
+    },
+    "Rajasthan": {
+      "n": 165,
+      "rto": 48,
+      "rate": 0.2909090909090909
+    },
+    "Tamil Nadu": {
+      "n": 157,
+      "rto": 33,
+      "rate": 0.21019108280254778
+    },
+    "Telangana": {
+      "n": 177,
+      "rto": 44,
+      "rate": 0.24858757062146894
+    },
+    "Uttar Pradesh": {
+      "n": 197,
+      "rto": 88,
+      "rate": 0.4467005076142132
+    },
+    "West Bengal": {
+      "n": 131,
+      "rto": 32,
+      "rate": 0.24427480916030533
+    }
+  },
+  "city_rates": {
+    "Bareilly": {
+      "n": 33,
+      "rto": 20,
+      "rate": 0.6060606060606061
+    },
+    "Bengaluru": {
+      "n": 214,
+      "rto": 55,
+      "rate": 0.2570093457943925
+    },
+    "Chennai": {
+      "n": 157,
+      "rto": 33,
+      "rate": 0.21019108280254778
+    },
+    "Darbhanga": {
+      "n": 62,
+      "rto": 36,
+      "rate": 0.5806451612903226
+    },
+    "Delhi": {
+      "n": 246,
+      "rto": 53,
+      "rate": 0.21544715447154472
+    },
+    "Gorakhpur": {
+      "n": 46,
+      "rto": 29,
+      "rate": 0.6304347826086957
+    },
+    "Guwahati": {
+      "n": 42,
+      "rto": 15,
+      "rate": 0.35714285714285715
+    },
+    "Hyderabad": {
+      "n": 176,
+      "rto": 44,
+      "rate": 0.25
+    },
+    "Indore": {
+      "n": 75,
+      "rto": 22,
+      "rate": 0.29333333333333333
+    },
+    "Jaipur": {
+      "n": 123,
+      "rto": 31,
+      "rate": 0.25203252032520324
+    },
+    "Kolkata": {
+      "n": 131,
+      "rto": 32,
+      "rate": 0.24427480916030533
+    },
+    "Kota": {
+      "n": 41,
+      "rto": 16,
+      "rate": 0.3902439024390244
+    },
+    "Lucknow": {
+      "n": 118,
+      "rto": 39,
+      "rate": 0.3305084745762712
+    },
+    "Mumbai": {
+      "n": 219,
+      "rto": 39,
+      "rate": 0.1780821917808219
+    },
+    "Patna": {
+      "n": 80,
+      "rto": 38,
+      "rate": 0.475
+    },
+    "Pune": {
+      "n": 171,
+      "rto": 31,
+      "rate": 0.18128654970760233
+    },
+    "Sagar": {
+      "n": 55,
+      "rto": 28,
+      "rate": 0.509090909090909
+    }
+  },
+  "value_bands": {
+    "0-300": {
+      "n": 125,
+      "rto": 37,
+      "rate": 0.296
+    },
+    "300-500": {
+      "n": 545,
+      "rto": 148,
+      "rate": 0.27155963302752295
+    },
+    "500-700": {
+      "n": 307,
+      "rto": 113,
+      "rate": 0.36807817589576547
+    },
+    "700-1000": {
+      "n": 346,
+      "rto": 82,
+      "rate": 0.23699421965317918
+    },
+    "1000-1000000000": {
+      "n": 694,
+      "rto": 193,
+      "rate": 0.2780979827089337
+    }
+  },
+  "zero_value_orders": [
+    "KT100710",
+    "KT101549",
+    "KT100565"
+  ],
+  "september_backtest": {
+    "Ship as-is": {
+      "n": 253,
+      "rto": 55,
+      "rate": 0.21739130434782608,
+      "delivered_value_margin": 107017.58
+    },
+    "Ship after confirmation": {
+      "n": 68,
+      "rto": 22,
+      "rate": 0.3235294117647059,
+      "delivered_value_margin": 25095.12
+    },
+    "Nudge to prepaid": {
+      "n": 10,
+      "rto": 7,
+      "rate": 0.7,
+      "delivered_value_margin": 1515.9
+    },
+    "Hold / cancel": {
+      "n": 3,
+      "rto": 3,
+      "rate": 1.0,
+      "delivered_value_margin": 0.0
+    },
+    "train_high_risk_states": {
+      "Bihar": 0.523,
+      "Madhya Pradesh": 0.383,
+      "Uttar Pradesh": 0.481
+    },
+    "test_overall": {
+      "n": 334,
+      "rto": 87,
+      "rate": 0.26047904191616766
+    },
+    "test_actual_rto_cost": 14737.8,
+    "hold_saved_rs": 508.2,
+    "hold_lost_margin_rs": 0.0,
+    "nudge": {
+      "conversion_30pct": {
+        "converted_orders": 3.0,
+        "expected_rtos_avoided": 2.0,
+        "saved_rs": 335.41,
+        "discount_cost_rs": 104.16,
+        "net_rs": 231.25
+      },
+      "conversion_50pct": {
+        "converted_orders": 5.0,
+        "expected_rtos_avoided": 3.3,
+        "saved_rs": 559.02,
+        "discount_cost_rs": 173.6,
+        "net_rs": 385.42
+      }
+    },
+    "net_hold_plus_nudge50": 893.62
+  },
+  "costs": {
+    "per_rto_rs": 169.4,
+    "margin_rate": 0.62,
+    "prepaid_rto_rate_brief_given": 0.04
+  }
+}

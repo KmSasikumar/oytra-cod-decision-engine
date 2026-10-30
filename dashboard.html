@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Oytra COD dashboard — 2026-09-30</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;max-width:760px;margin:32px auto;padding:0 16px;color:#222}
+h1{font-size:22px} .cards{display:flex;gap:12px;flex-wrap:wrap}
+.card{border:1px solid #ddd;border-radius:10px;padding:14px 18px;flex:1;min-width:150px}
+.card b{font-size:26px;display:block} table{border-collapse:collapse;width:100%;margin-top:16px}
+th,td{border:1px solid #ddd;padding:8px;text-align:left} .net{font-size:20px;margin-top:16px}
+small{color:#666}
+</style></head><body>
+<h1>Good morning — COD decisions for 2026-09-30 (last 30 days)</h1>
+<p>334 COD orders in this period.</p>
+<div class="cards">
+<div class="card"><b>253</b>Ship as-is</div>
+<div class="card"><b>68</b>Ship after confirmation</div>
+<div class="card"><b>10</b>Nudge to prepaid</div>
+<div class="card"><b>3</b>Hold / cancel</div>
+</div>
+<table>
+<tr><th>Measure</th><th>Rs</th><th>How it is calculated</th></tr>
+<tr><td>Estimated saved from avoided RTOs</td><td>Rs 508.20</td><td>Actual RTOs inside the Hold bucket x Rs 169.40 per RTO</td></tr>
+<tr><td>Estimated lost from cancelled genuine orders</td><td>Rs 0.00</td><td>62% margin on actually-delivered orders inside the Hold bucket</td></tr>
+<tr><td>Nudge-to-prepaid net (50% conversion scenario)</td><td>Rs 385.42</td><td>Scenario only: assumes half of nudged customers convert; prepaid RTO 4% is from the brief, not the data file</td></tr>
+<tr><td><b>Net impact</b></td><td><b>Rs 893.62</b></td><td>Saved - lost + nudge net</td></tr>
+</table>
+<p class="net">Confirmation bucket: 68 orders, actual RTO rate 32.4%%. No rupee saving is claimed for confirmations — the file cannot show who would reply on WhatsApp. Once reply rates are logged, this becomes measurable.</p>
+<p><small>Assumptions, stated plainly: per-RTO cost Rs 169.40 (Rs 65 + Rs 65 + Rs 25 + 8% x Rs 180); margin 62%; prepaid RTO 4% is brief-given because the data file contains only COD orders. Bucket RTO rates above are the orders' actual outcomes.</small></p>
+</body></html>
